@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace StaticProperty
 {
@@ -8,12 +8,16 @@ namespace StaticProperty
         {
             Car car1 = new Car("Mazda 3", "Skyactiv 3");
             Console.WriteLine(Car.numberOfCars);
+            Console.WriteLine(car1.ToString());
             Car car2 = new Car("Mazda 1", "Skyactiv 4");
             Console.WriteLine(Car.numberOfCars);
+            Console.WriteLine(car2.ToString());
             Car car3 = new Car("Mazda 2", "Skyactiv 5");
             Console.WriteLine(Car.numberOfCars);
+            Console.WriteLine(car3.ToString());
             Car car4 = new Car("Mazda 4", "Skyactiv 6");
             Console.WriteLine(Car.numberOfCars);
+            Console.WriteLine(car4.ToString());
             Console.ReadLine();
         }
     }
