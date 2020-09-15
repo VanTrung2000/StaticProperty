@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -14,6 +14,10 @@ namespace StaticProperty
             this.name = name;
             this.engine = engine;
             numberOfCars++;
+        }
+        public override string ToString()
+        {
+            return "Name=" + name + ", Engine=" + engine;
         }
     }
 }
